@@ -1,0 +1,41 @@
+name: "Share a beta test"
+description: "Tell us what worked on your editor version, even if everything went fine."
+title: "[Beta test] "
+body:
+  - type: dropdown
+    id: host
+    attributes:
+      label: Which app?
+      options:
+        - Maya
+        - Blender
+        - Godot
+        - Unity
+        - Unreal Engine
+        - Cinema 4D
+        - 3ds Max
+        - ZBrush
+        - Several hosts / not sure
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: "App version, OS and Floppy beta"
+      placeholder: "e.g. 3ds Max 2026.2, Windows 11, beta-2026-11-23"
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: "What did you try and how did it feel?"
+      placeholder: "Try a move, a turn, a scale, then undo. Mention anything that felt different from your usual gizmo."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Optional hardware, screenshot or clip"
+      placeholder: "Mouse or tablet? Graphics card? A few seconds of video can help us see what you felt."
+    validations:
+      required: false

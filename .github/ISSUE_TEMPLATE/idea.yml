@@ -1,0 +1,34 @@
+name: "Suggest an improvement"
+description: "Suggest a change to how the gizmo looks, feels or works."
+title: "[Idea] "
+body:
+  - type: dropdown
+    id: host
+    attributes:
+      label: Which app?
+      options:
+        - Maya
+        - Blender
+        - Godot
+        - Unity
+        - Unreal Engine
+        - Cinema 4D
+        - 3ds Max
+        - ZBrush
+        - Several hosts / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What would you change?"
+      placeholder: "e.g. Let me pin the start of the rotation arrow while dragging."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "When would that help?"
+      placeholder: "Describe a real animation, modeling or layout task."
+    validations:
+      required: false

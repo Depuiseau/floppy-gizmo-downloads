@@ -1,0 +1,48 @@
+name: "Report a bug"
+description: "A handle missed, snapped, lagged, or did something unexpected."
+title: "[Bug] "
+body:
+  - type: dropdown
+    id: host
+    attributes:
+      label: Which app?
+      options:
+        - Maya
+        - Blender
+        - Godot
+        - Unity
+        - Unreal Engine
+        - Cinema 4D
+        - 3ds Max
+        - ZBrush
+        - Several hosts / not sure
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: "App version, OS and Floppy beta"
+      placeholder: "e.g. Godot 4.7.2, Windows 11, beta-2026-11-23"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "How can we reproduce it?"
+      placeholder: "e.g. Select a cube, grab the XY plane, orbit the camera, then drag."
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: "What did you expect, and what actually happened?"
+      placeholder: "e.g. I expected Z to stay at zero. Instead the cube moved toward the camera."
+    validations:
+      required: true
+  - type: textarea
+    id: clip
+    attributes:
+      label: "Optional screenshot or clip"
+      placeholder: "Drag a clip here. Use a scene you can share publicly."
+    validations:
+      required: false

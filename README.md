@@ -9,3 +9,9 @@ Current public build **0.4.36**.
 3. Choose **Floppy Gizmo → Settings** in the main menu. This starts the tool and opens its controls. You can reopen them with the same menu or run `floppyGizmoSettings` in the MEL command line.
 
 This build is unsigned. Follow your studio's plug-in policy.
+
+## Test it and leave feedback
+
+Try it on a cube in a new scene. Drag a colored plane, rotate one full turn, change scale, then undo. Include the editor version and beta tag so someone can repeat the test.
+
+[Report a bug](https://github.com/Depuiseau/floppy-gizmo-downloads/issues/new?template=bug.yml) · [Suggest an improvement](https://github.com/Depuiseau/floppy-gizmo-downloads/issues/new?template=idea.yml) · [Share a test result](https://github.com/Depuiseau/floppy-gizmo-downloads/issues/new?template=test.yml)
