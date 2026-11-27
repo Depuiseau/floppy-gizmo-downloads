@@ -1,14 +1,14 @@
 # Floppy Gizmo
 
-Unuseful tool #1. I made the arrows in Maya perk up when you hover and wobble when you let go. The cube remains a cube.
+Unuseful tool #1. Hover and the arrows perk up. Finally, a coworker who’s happy to see you.
 
-**[Grab a free Windows beta](https://github.com/Depuiseau/floppy-gizmo-downloads/releases/tag/v0.4.77-windows-beta.1)** · Maya, Godot or Unreal Move Preview.
+**Free Windows betas** · [Maya 2025–2027](https://github.com/Depuiseau/floppy-gizmo-downloads/releases/download/v0.4.77-windows-beta.1/Floppy-Gizmo-Maya-2025-2027-Windows.zip) · [Godot 4](https://github.com/Depuiseau/floppy-gizmo-downloads/releases/download/v0.4.77-windows-beta.1/Floppy-Gizmo-Godot-4-Windows.zip) · [Unreal 5.9 Move Preview](https://github.com/Depuiseau/floppy-gizmo-downloads/releases/download/v0.4.77-windows-beta.1/Floppy-Gizmo-Unreal-5.9-Preview-2-Move-Preview-Beta.zip)
 
-Something bending that shouldn’t? [Send me a clip.](https://github.com/Depuiseau/floppy-gizmo-downloads/issues/new/choose)
+[How to install](https://github.com/Depuiseau/floppy-gizmo-downloads/releases/tag/v0.4.77-windows-beta.1) · [Broke it? Send me a clip.](https://github.com/Depuiseau/floppy-gizmo-downloads/issues/new/choose)
 
 <details>
-<summary>Old single-file build for Maya 2025</summary>
+<summary>Old Maya 2025 build</summary>
 
-Drop the MLL into `Documents/maya/2025/plug-ins`, tick **Loaded** in Plug-in Manager, then open **Floppy Gizmo → Settings**. [Download 0.4.36](https://github.com/Depuiseau/floppy-gizmo-downloads/raw/refs/heads/main/FloppyGizmo.mll)
+Drop the [0.4.36 MLL](https://github.com/Depuiseau/floppy-gizmo-downloads/raw/refs/heads/main/FloppyGizmo.mll) into `Documents/maya/2025/plug-ins`, tick **Loaded** in Plug-in Manager, then open **Floppy Gizmo → Settings**.
 
 </details>
